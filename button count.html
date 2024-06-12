@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Count</title>
+    <style>
+        button {
+            font-size: 18px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <button id="a" onclick="bt1()">0</button>
+    <button id="b" onclick="bt2()">0</button>
+    <button id="c" onclick="bt3()">0</button>
+
+    <script>
+       function bt1()
+        {
+            let b1 = document.getElementById('a');
+               b1.innerHTML=1+ +b1.innerHTML;
+        }
+       function bt2() 
+        {
+            let b2 = document.getElementById('b');
+               b2.innerHTML=1+ +b2.innerHTML;
+        }
+        function bt3()
+        {
+            let b3 = document.getElementById('c');
+               b3.innerHTML=1+ +b3.innerHTML;
+        }
+              
+    </script>
+
+</body>
+</html>
